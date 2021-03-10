@@ -1,5 +1,6 @@
-# Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding (ECCV2020)
+# StereoDerainNet
 
+### Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding (ECCV2020)
 
 ## Prerequisites
 - Python >= 3.6  
