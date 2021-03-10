@@ -77,7 +77,19 @@ $ python test_cityscape.py -semantic -single_single
 
 
 
+## Citation
+If you think this work is useful for your research, please cite the following paper.
 
+```
+@inproceedings{zhang2020beyond,
+  title={Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding},
+  author={Zhang, Kaihao and Luo, Wenhan and Ren, Wenqi and Wang, Jingwen and Zhao, Fang and Ma, Lin and Li, Hongdong},
+  booktitle={European Conference on Computer Vision},
+  pages={71--89},
+  year={2020},
+  organization={Springer}
+}
+```
 
 
 
