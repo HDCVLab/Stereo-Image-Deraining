@@ -1,7 +1,6 @@
 # StereoDerainNet
-This report contains the training and testing codes for our paper:
 
-### StereoDerainNet: Beyond Monocular Deraining: Parallel Stereo Deraining Network Via Semantic Prior
+### Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding
 
 
 ## Prerequisites
