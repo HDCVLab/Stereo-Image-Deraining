@@ -65,6 +65,59 @@ $ python test_K15.py -semantic -single_single
 $ python test_cityscape.py -semantic -single_single 
 ```
 
+### 2. Training
+
+Ready the K12, K15 or cityscape dataset
+- Please ensure the data structure is as below.
+
+```
+├── K12(K15)
+   └── train
+       ├── image_2_3_norain
+       ├── image_3_2_norain
+       ├── image_2_3_rain50
+       └── image_3_2_rain50
+
+```
+
+```
+├── rain_cityscape_gt
+   └── citynames
+   └── ...
+
+├── rain_cityscape
+   └── citynames
+   └──...
+```
+After set the dataset directory in ```train.py```,\
+You can train the model by running the command below 
+- For Stereo model :
+```bash
+$ python train_K12.py -semantic -single_stereo 
+
+$ python train_K15.py -semantic -single_stereo 
+```
+- For Monocular model :
+```bash
+$ python train_K12.py -semantic -single_single
+
+$ python train_K15.py -semantic -single_single
+
+$ python train_cityscape.py -semantic -single_single
+```
+
+
+## Training detail
+#### Stereo :
+   - K12 batch_size=2 epoch=55 learn_rate=0.0002
+   - K15 batch_size=2 epoch=50 learn_rate=0.0002
+
+#### Monocular :
+   - K12 batch_size=4 epoch=55 learn_rate=0.0002
+   - K15 batch_size=4 epoch=50 learn_rate=0.0002
+   - CityScape batch_size=4 epoch=200(100 for coarse + 100 for both) learn_rate=0.0002
+
+
 
 ##  Our datasets
  - Our training and testing datasets can be found (https://pan.baidu.com/s/1T2UplwARbLS5apIQiAnEXg
