@@ -130,7 +130,7 @@ $ python train_cityscape.py -semantic -single_single
 
 
 ## Citation
-If you think this work is useful for your research, please cite the following paper.
+If you think this work is useful for your research, please cite the following papers.
 
 ```
 @inproceedings{zhang2020beyond,
