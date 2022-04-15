@@ -1,4 +1,5 @@
 # Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding (ECCV2020)
+# Beyond monocular deraining: Parallel stereo deraining network via semantic prior （IJCV2022）
 
 
 ## Prerequisites
@@ -140,6 +141,13 @@ If you think this work is useful for your research, please cite the following pa
   pages={71--89},
   year={2020},
   organization={Springer}
+}
+
+@article{zhang2022beyond,
+  title={Beyond monocular deraining: Parallel stereo deraining network via semantic prior},
+  author={Zhang, Kaihao and Luo, Wenhan and Yu, Yanjiang and Ren, Wenqi and Zhao, Fang and Li, Changsheng and Ma, Lin and Liu, Wei and Li, Hongdong},
+  journal={International Journal of Computer Vision},
+  year={2022}
 }
 ```
 
