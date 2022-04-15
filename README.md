@@ -1,4 +1,5 @@
-# Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding (ECCV2020), Beyond monocular deraining: Parallel stereo deraining network via semantic prior （IJCV2022）
+# Beyond Monocular Deraining: Stereo Image Deraining via Semantic Understanding (ECCV2020)
+# Beyond monocular deraining: Parallel stereo deraining network via semantic prior （IJCV2022）
 
 
 ## Prerequisites
