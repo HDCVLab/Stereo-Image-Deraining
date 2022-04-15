@@ -1,4 +1,4 @@
-# Beyond monocular deraining: Parallel stereo deraining network via semantic prior （ECCV2020, IJCV2022）
+# Beyond monocular deraining: Parallel stereo deraining network via semantic prior (ECCV2020, IJCV2022)
 
 
 ## Prerequisites
