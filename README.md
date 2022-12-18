@@ -119,8 +119,8 @@ $ python train_cityscape.py -semantic -single_single
 
 
 ##  Our datasets
- - Our training and testing datasets can be found (https://pan.baidu.com/s/1T2UplwARbLS5apIQiAnEXg
-) (password : zzkd).
+ - Our training and testing datasets can be found (https://pan.baidu.com/s/1sB45qSkCu5q-6Be3ZKLYLA?pwd=1zde
+).
 
 
 ##  Our result
